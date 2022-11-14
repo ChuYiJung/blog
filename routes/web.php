@@ -23,9 +23,13 @@ Route::get('/users/{id?}','App\Http\Controllers\UserController@show');
 //Route::get('/users/{id?}','App\Http\Controllers\UserController@show');
 
 //Route::get('/posts/{post}/comment/{comment}',function($post,$comment){
-  return "posts $post, comments $comment";
+  //return "posts $post, comments $comment";
 //});
 
-Route::get('/posts/{post}/comment/{comment}', function($post,$comment){
+Route::get('/posts/{post}/comments/{comment}', function($post,$comment){
     return "posts $post , comments $comment";
 });
+
+Route::get('game/{id}','App\Http\Controllers\SiteController@play');
+
+Route::get('admin','App\Http\Controllers\SiteController@dashboard');
