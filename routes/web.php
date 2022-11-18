@@ -33,3 +33,9 @@ Route::get('/posts/{post}/comments/{comment}', function($post,$comment){
 Route::get('game/{id}','App\Http\Controllers\SiteController@play');
 
 Route::get('admin','App\Http\Controllers\SiteController@dashboard');
+
+Route::get('/demo','App\Http\Controllers\SiteController@demo');
+
+Route::apiResource('posts','App\Http\Controllers\Api\PostController');
+
+Route::get('jsoul','App\Http\Controllers\SiteController@dessert');

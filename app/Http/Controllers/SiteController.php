@@ -23,4 +23,17 @@ class SiteController extends Controller
   public function dashboard(){
   return view('dashboard');
 }
+
+  public function demo(){
+    $name = 'Evelyn';
+    $age = '24';
+    return view('test.demo',compact('name','age'));
+  }
+
+  public function dessert(){
+  return view('jsoul.dessert');
+}
+
+
+
 }
