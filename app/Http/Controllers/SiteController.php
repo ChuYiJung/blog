@@ -34,6 +34,17 @@ class SiteController extends Controller
   return view('jsoul.dessert');
 }
 
+ public function scan(){
+  return view('scan');
+}
+
+ public function carousel(){
+  return view('carousel');
+}
+
+ public function music(){
+  return view('music');
+}
 
 
 }

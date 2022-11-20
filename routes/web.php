@@ -39,3 +39,9 @@ Route::get('/demo','App\Http\Controllers\SiteController@demo');
 Route::apiResource('posts','App\Http\Controllers\Api\PostController');
 
 Route::get('jsoul','App\Http\Controllers\SiteController@dessert');
+
+Route::get('scans','App\Http\Controllers\SiteController@scan');
+
+Route::get('carousels','App\Http\Controllers\SiteController@carousel');
+
+Route::get('musics','App\Http\Controllers\SiteController@music');

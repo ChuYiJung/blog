@@ -1,0 +1,143 @@
+body{
+  background:url(http://previews.123rf.com/images/1stchoice/1stchoice1202/1stchoice120200003/12604312-Grunge-music-background-with-guitar-sheet-music-and-notes-musical-event-template-in-vintage-style-Stock-Photo.jpg) ;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+h1{
+ text-align:center;
+  text-shadow:0px 0px 2px #666;
+  font-family:Georgia;
+  background:#454849;
+  transition:all 1s;
+  
+}
+h1:hover{
+  font-size:1.7em;
+  text-shadow:0px 0px 2px #666,
+     0px 1px 1px #666,
+     0px 2px 1px #555,
+     0px 3px 1px #444,
+     0px 4px 1px #333,
+     0px 5px 6px #111;
+  transform:skewy(.5deg);
+}
+p{
+  font-size:1.5em;
+  margin-left:80px;
+}
+ul{
+  margin-top:0;
+  list-style-type:none;
+  background-color:#292623;
+  font-size:1.9em;
+  font-family:sans-serif;
+  overflow:hidden;
+  
+}
+li a{
+  display:block;
+  text-decoration:none;
+  color:black;
+  float:left;
+  margin-right:80px;
+  transition:transform .5s;
+  
+}
+li a:hover{
+ transform:scale(1.09);
+  color:#2B362D;
+ box-shadow: 0px 0px 2px #666,
+     0px 1px 1px #666,
+     0px 2px 1px #555,
+     0px 3px 1px #444,
+     0px 4px 1px #333,
+     0px 5px 6px #111;      
+
+ 
+}
+img{
+  margin-top:6px;
+  margin-bottom:40px;
+  width:25%;
+  vertical-align:middle;
+   height:460px;
+  margin-left:80px;
+  transition:all 2s,transform .5s,box-shadow .5s;
+  max-width:100%
+}
+img:hover{
+  box-shadow:6px 6px  20px ;
+           rgb(255,255,255);
+  transform:scale(1.05) ;
+  
+}
+#piano{
+  float:left;
+  margin-right:80px;
+  margin-left:0px;
+}
+#oud{
+  margin-left:0px;
+  float:left;
+  margin-right:80px
+}
+#violin{
+   margin-left:0px;
+  float:left;
+  margin-right:80px
+}
+@media screen and (max-width:800px){
+  img{
+    width:100%;
+    hight:30%;
+    margin:5% auto;
+  }
+  ul{
+    font-size:1.2em;
+  }
+  li a{
+    margin-right:10px;
+ border:3px solid #3D4249;
+   box_shadow:0px 2px 2px #aaa;
+  }
+}
+@media screen and (max-width:480px){
+  img{
+    width:37%;
+    height:30%;
+    margin:5% 5%;
+  }
+  ul{
+    font-size:1.3em;
+  }
+  li a{
+    margin-right:10px;
+   margin-bottom:10px;
+    margin-top:10px;
+ border:1px solid #3D4249;
+   box_shadow:0px 2px 2px #aaa;
+  }
+  p{
+    margin-left:0;
+  }
+}
+@media screen and (max-width:320px){
+  img{
+    width:100%;
+    hight:30%;
+    margin:5% auto;
+  }
+  ul{
+    font-size:1.3em;
+  }
+  li a{
+    margin-right:10px;
+   margin-bottom:10px;
+    margin-top:10px;
+ border:1px solid #3D4249;
+   box_shadow:0px 2px 2px #aaa;
+  }
+  p{
+    margin-left:0;
+  }
+}
